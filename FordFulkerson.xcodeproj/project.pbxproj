@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AFDD5531D6E18BC0090F4F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFDD5521D6E18BC0090F4F6 /* AppDelegate.swift */; };
+		7AFDD5551D6E18BC0090F4F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFDD5541D6E18BC0090F4F6 /* ViewController.swift */; };
+		7AFDD5581D6E18BC0090F4F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AFDD5561D6E18BC0090F4F6 /* Main.storyboard */; };
+		7AFDD55B1D6E18BC0090F4F6 /* FordFulkerson.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7AFDD5591D6E18BC0090F4F6 /* FordFulkerson.xcdatamodeld */; };
+		7AFDD55D1D6E18BC0090F4F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AFDD55C1D6E18BC0090F4F6 /* Assets.xcassets */; };
+		7AFDD5601D6E18BC0090F4F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AFDD55E1D6E18BC0090F4F6 /* LaunchScreen.storyboard */; };
+		7AFDD56B1D6E18BC0090F4F6 /* FordFulkersonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFDD56A1D6E18BC0090F4F6 /* FordFulkersonTests.swift */; };
+		7AFDD5761D6E18BC0090F4F6 /* FordFulkersonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFDD5751D6E18BC0090F4F6 /* FordFulkersonUITests.swift */; };
+		7AFDD5841D6E18DB0090F4F6 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFDD5831D6E18DB0090F4F6 /* Edge.swift */; };
+		7AFDD5861D6E18E80090F4F6 /* Vertice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFDD5851D6E18E80090F4F6 /* Vertice.swift */; };
+		7AFDD5881D6E19060090F4F6 /* FordFulkerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFDD5871D6E19060090F4F6 /* FordFulkerson.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AFDD5671D6E18BC0090F4F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AFDD5471D6E18BC0090F4F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AFDD54E1D6E18BC0090F4F6;
+			remoteInfo = FordFulkerson;
+		};
+		7AFDD5721D6E18BC0090F4F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AFDD5471D6E18BC0090F4F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AFDD54E1D6E18BC0090F4F6;
+			remoteInfo = FordFulkerson;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7AFDD54F1D6E18BC0090F4F6 /* FordFulkerson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FordFulkerson.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AFDD5521D6E18BC0090F4F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7AFDD5541D6E18BC0090F4F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7AFDD5571D6E18BC0090F4F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AFDD55A1D6E18BC0090F4F6 /* FordFulkerson.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FordFulkerson.xcdatamodel; sourceTree = "<group>"; };
+		7AFDD55C1D6E18BC0090F4F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AFDD55F1D6E18BC0090F4F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AFDD5611D6E18BC0090F4F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AFDD5661D6E18BC0090F4F6 /* FordFulkersonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FordFulkersonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AFDD56A1D6E18BC0090F4F6 /* FordFulkersonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FordFulkersonTests.swift; sourceTree = "<group>"; };
+		7AFDD56C1D6E18BC0090F4F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AFDD5711D6E18BC0090F4F6 /* FordFulkersonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FordFulkersonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AFDD5751D6E18BC0090F4F6 /* FordFulkersonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FordFulkersonUITests.swift; sourceTree = "<group>"; };
+		7AFDD5771D6E18BC0090F4F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AFDD5831D6E18DB0090F4F6 /* Edge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
+		7AFDD5851D6E18E80090F4F6 /* Vertice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vertice.swift; sourceTree = "<group>"; };
+		7AFDD5871D6E19060090F4F6 /* FordFulkerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FordFulkerson.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AFDD54C1D6E18BC0090F4F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AFDD5631D6E18BC0090F4F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AFDD56E1D6E18BC0090F4F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AFDD5461D6E18BC0090F4F6 = {
+			isa = PBXGroup;
+			children = (
+				7AFDD5511D6E18BC0090F4F6 /* FordFulkerson */,
+				7AFDD5691D6E18BC0090F4F6 /* FordFulkersonTests */,
+				7AFDD5741D6E18BC0090F4F6 /* FordFulkersonUITests */,
+				7AFDD5501D6E18BC0090F4F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AFDD5501D6E18BC0090F4F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AFDD54F1D6E18BC0090F4F6 /* FordFulkerson.app */,
+				7AFDD5661D6E18BC0090F4F6 /* FordFulkersonTests.xctest */,
+				7AFDD5711D6E18BC0090F4F6 /* FordFulkersonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AFDD5511D6E18BC0090F4F6 /* FordFulkerson */ = {
+			isa = PBXGroup;
+			children = (
+				7AFDD5831D6E18DB0090F4F6 /* Edge.swift */,
+				7AFDD5851D6E18E80090F4F6 /* Vertice.swift */,
+				7AFDD5871D6E19060090F4F6 /* FordFulkerson.swift */,
+				7AFDD5521D6E18BC0090F4F6 /* AppDelegate.swift */,
+				7AFDD5541D6E18BC0090F4F6 /* ViewController.swift */,
+				7AFDD5561D6E18BC0090F4F6 /* Main.storyboard */,
+				7AFDD55C1D6E18BC0090F4F6 /* Assets.xcassets */,
+				7AFDD55E1D6E18BC0090F4F6 /* LaunchScreen.storyboard */,
+				7AFDD5611D6E18BC0090F4F6 /* Info.plist */,
+				7AFDD5591D6E18BC0090F4F6 /* FordFulkerson.xcdatamodeld */,
+			);
+			path = FordFulkerson;
+			sourceTree = "<group>";
+		};
+		7AFDD5691D6E18BC0090F4F6 /* FordFulkersonTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AFDD56A1D6E18BC0090F4F6 /* FordFulkersonTests.swift */,
+				7AFDD56C1D6E18BC0090F4F6 /* Info.plist */,
+			);
+			path = FordFulkersonTests;
+			sourceTree = "<group>";
+		};
+		7AFDD5741D6E18BC0090F4F6 /* FordFulkersonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7AFDD5751D6E18BC0090F4F6 /* FordFulkersonUITests.swift */,
+				7AFDD5771D6E18BC0090F4F6 /* Info.plist */,
+			);
+			path = FordFulkersonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AFDD54E1D6E18BC0090F4F6 /* FordFulkerson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AFDD57A1D6E18BC0090F4F6 /* Build configuration list for PBXNativeTarget "FordFulkerson" */;
+			buildPhases = (
+				7AFDD54B1D6E18BC0090F4F6 /* Sources */,
+				7AFDD54C1D6E18BC0090F4F6 /* Frameworks */,
+				7AFDD54D1D6E18BC0090F4F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FordFulkerson;
+			productName = FordFulkerson;
+			productReference = 7AFDD54F1D6E18BC0090F4F6 /* FordFulkerson.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AFDD5651D6E18BC0090F4F6 /* FordFulkersonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AFDD57D1D6E18BC0090F4F6 /* Build configuration list for PBXNativeTarget "FordFulkersonTests" */;
+			buildPhases = (
+				7AFDD5621D6E18BC0090F4F6 /* Sources */,
+				7AFDD5631D6E18BC0090F4F6 /* Frameworks */,
+				7AFDD5641D6E18BC0090F4F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AFDD5681D6E18BC0090F4F6 /* PBXTargetDependency */,
+			);
+			name = FordFulkersonTests;
+			productName = FordFulkersonTests;
+			productReference = 7AFDD5661D6E18BC0090F4F6 /* FordFulkersonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7AFDD5701D6E18BC0090F4F6 /* FordFulkersonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AFDD5801D6E18BC0090F4F6 /* Build configuration list for PBXNativeTarget "FordFulkersonUITests" */;
+			buildPhases = (
+				7AFDD56D1D6E18BC0090F4F6 /* Sources */,
+				7AFDD56E1D6E18BC0090F4F6 /* Frameworks */,
+				7AFDD56F1D6E18BC0090F4F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AFDD5731D6E18BC0090F4F6 /* PBXTargetDependency */,
+			);
+			name = FordFulkersonUITests;
+			productName = FordFulkersonUITests;
+			productReference = 7AFDD5711D6E18BC0090F4F6 /* FordFulkersonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AFDD5471D6E18BC0090F4F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Martin Pietrowski";
+				TargetAttributes = {
+					7AFDD54E1D6E18BC0090F4F6 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
+					};
+					7AFDD5651D6E18BC0090F4F6 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
+						TestTargetID = 7AFDD54E1D6E18BC0090F4F6;
+					};
+					7AFDD5701D6E18BC0090F4F6 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
+						TestTargetID = 7AFDD54E1D6E18BC0090F4F6;
+					};
+				};
+			};
+			buildConfigurationList = 7AFDD54A1D6E18BC0090F4F6 /* Build configuration list for PBXProject "FordFulkerson" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AFDD5461D6E18BC0090F4F6;
+			productRefGroup = 7AFDD5501D6E18BC0090F4F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AFDD54E1D6E18BC0090F4F6 /* FordFulkerson */,
+				7AFDD5651D6E18BC0090F4F6 /* FordFulkersonTests */,
+				7AFDD5701D6E18BC0090F4F6 /* FordFulkersonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AFDD54D1D6E18BC0090F4F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFDD5601D6E18BC0090F4F6 /* LaunchScreen.storyboard in Resources */,
+				7AFDD55D1D6E18BC0090F4F6 /* Assets.xcassets in Resources */,
+				7AFDD5581D6E18BC0090F4F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AFDD5641D6E18BC0090F4F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AFDD56F1D6E18BC0090F4F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AFDD54B1D6E18BC0090F4F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFDD5551D6E18BC0090F4F6 /* ViewController.swift in Sources */,
+				7AFDD5531D6E18BC0090F4F6 /* AppDelegate.swift in Sources */,
+				7AFDD5861D6E18E80090F4F6 /* Vertice.swift in Sources */,
+				7AFDD5841D6E18DB0090F4F6 /* Edge.swift in Sources */,
+				7AFDD5881D6E19060090F4F6 /* FordFulkerson.swift in Sources */,
+				7AFDD55B1D6E18BC0090F4F6 /* FordFulkerson.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AFDD5621D6E18BC0090F4F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFDD56B1D6E18BC0090F4F6 /* FordFulkersonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AFDD56D1D6E18BC0090F4F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFDD5761D6E18BC0090F4F6 /* FordFulkersonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AFDD5681D6E18BC0090F4F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AFDD54E1D6E18BC0090F4F6 /* FordFulkerson */;
+			targetProxy = 7AFDD5671D6E18BC0090F4F6 /* PBXContainerItemProxy */;
+		};
+		7AFDD5731D6E18BC0090F4F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AFDD54E1D6E18BC0090F4F6 /* FordFulkerson */;
+			targetProxy = 7AFDD5721D6E18BC0090F4F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7AFDD5561D6E18BC0090F4F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AFDD5571D6E18BC0090F4F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AFDD55E1D6E18BC0090F4F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AFDD55F1D6E18BC0090F4F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AFDD5781D6E18BC0090F4F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7AFDD5791D6E18BC0090F4F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AFDD57B1D6E18BC0090F4F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FordFulkerson/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.MartinP.FordFulkerson;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7AFDD57C1D6E18BC0090F4F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FordFulkerson/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.MartinP.FordFulkerson;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7AFDD57E1D6E18BC0090F4F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FordFulkersonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.MartinP.FordFulkersonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FordFulkerson.app/FordFulkerson";
+			};
+			name = Debug;
+		};
+		7AFDD57F1D6E18BC0090F4F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FordFulkersonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.MartinP.FordFulkersonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FordFulkerson.app/FordFulkerson";
+			};
+			name = Release;
+		};
+		7AFDD5811D6E18BC0090F4F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FordFulkersonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.MartinP.FordFulkersonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FordFulkerson;
+			};
+			name = Debug;
+		};
+		7AFDD5821D6E18BC0090F4F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FordFulkersonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.MartinP.FordFulkersonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FordFulkerson;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AFDD54A1D6E18BC0090F4F6 /* Build configuration list for PBXProject "FordFulkerson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AFDD5781D6E18BC0090F4F6 /* Debug */,
+				7AFDD5791D6E18BC0090F4F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AFDD57A1D6E18BC0090F4F6 /* Build configuration list for PBXNativeTarget "FordFulkerson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AFDD57B1D6E18BC0090F4F6 /* Debug */,
+				7AFDD57C1D6E18BC0090F4F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AFDD57D1D6E18BC0090F4F6 /* Build configuration list for PBXNativeTarget "FordFulkersonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AFDD57E1D6E18BC0090F4F6 /* Debug */,
+				7AFDD57F1D6E18BC0090F4F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AFDD5801D6E18BC0090F4F6 /* Build configuration list for PBXNativeTarget "FordFulkersonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AFDD5811D6E18BC0090F4F6 /* Debug */,
+				7AFDD5821D6E18BC0090F4F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7AFDD5591D6E18BC0090F4F6 /* FordFulkerson.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7AFDD55A1D6E18BC0090F4F6 /* FordFulkerson.xcdatamodel */,
+			);
+			currentVersion = 7AFDD55A1D6E18BC0090F4F6 /* FordFulkerson.xcdatamodel */;
+			path = FordFulkerson.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7AFDD5471D6E18BC0090F4F6 /* Project object */;
+}

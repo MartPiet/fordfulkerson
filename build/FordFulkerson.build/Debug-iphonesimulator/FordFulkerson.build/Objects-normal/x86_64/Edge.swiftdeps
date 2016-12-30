@@ -1,0 +1,88 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Edge"
+provides-nominal:
+- "C13FordFulkerson4Edge"
+provides-member:
+- ["C13FordFulkerson4Edge", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "-"
+- "Int"
+- !private "=="
+- "Edge"
+- "IntegerLiteralType"
+- "FloatLiteralType"
+- "BooleanLiteralType"
+- "Vertice"
+- !private "&&"
+- "Bool"
+depends-member:
+- ["Ps9AnyObject", "Vertice"]
+- !private ["Ps9AnyObject", "capacity"]
+- !private ["Ps9AnyObject", "endpoint"]
+- !private ["Ps9AnyObject", "flow"]
+- !private ["Ps9AnyObject", "getLabel"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "startpoint"]
+- !private ["Ps9AnyObject", "used"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["C13FordFulkerson4Edge", "Bool"]
+- ["C13FordFulkerson4Edge", "Edge"]
+- ["C13FordFulkerson4Edge", "Int"]
+- ["C13FordFulkerson4Edge", "Vertice"]
+- !private ["C13FordFulkerson4Edge", "capacity"]
+- ["C13FordFulkerson4Edge", "compareEdges"]
+- ["C13FordFulkerson4Edge", "deinit"]
+- !private ["C13FordFulkerson4Edge", "endpoint"]
+- !private ["C13FordFulkerson4Edge", "flow"]
+- ["C13FordFulkerson4Edge", "getAvailableFlow"]
+- ["C13FordFulkerson4Edge", "getCapacity"]
+- ["C13FordFulkerson4Edge", "getEndpoint"]
+- ["C13FordFulkerson4Edge", "getFlow"]
+- ["C13FordFulkerson4Edge", "getStartpoint"]
+- ["C13FordFulkerson4Edge", "init"]
+- ["C13FordFulkerson4Edge", "isUsed"]
+- ["C13FordFulkerson4Edge", "setCapacity"]
+- ["C13FordFulkerson4Edge", "setEndpoint"]
+- ["C13FordFulkerson4Edge", "setFlow"]
+- ["C13FordFulkerson4Edge", "setStartpoint"]
+- ["C13FordFulkerson4Edge", "setUsedStatus"]
+- !private ["C13FordFulkerson4Edge", "startpoint"]
+- !private ["C13FordFulkerson4Edge", "used"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["C13FordFulkerson7Vertice", "getLabel"]
+- ["C13FordFulkerson7Vertice", "init"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "Ps23CustomStringConvertible"
+- "C13FordFulkerson4Edge"
+- !private "Ps9Equatable"
+- !private "Ps8Hashable"
+- "C13FordFulkerson7Vertice"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "972b3cf848d4b12385765333c554e50e"
